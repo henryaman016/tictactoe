@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .head{
+    font-size: 30px;
+    display:flexbox;
+    text-align: center;
+    color: black;
+   background-color: yellowgreen;
+    margin: 60px;
+  }
+  
+  #parent{
+    width:fit-content;
+    margin: 100px auto;
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+  }
+  
+  .box{
+    height:100px;
+    width:100px;
+    border:2px solid #1331c3;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: yellow;
+   display:flex;
+    align-items: center;
+   padding-left: 50px;
+    border-radius: 4px;
+    
+  }
